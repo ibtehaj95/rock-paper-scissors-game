@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <h1>Rock, Paper or Scissors?</h1>
+    <div class="main-container">
+        <div class="game-container">
+            <h3>Computer</h3>
+            <div class="computer-images">
+                <img src="./assets/Rock.jpg" id="com-rock" alt="rock">
+                <img src="./assets/Paper.jpg" id="com-paper" alt="paper">
+                <img src="./assets/Scissors.jpg" id="com-scissor" alt="scissors">
+            </div>
+            <div class="user-images">
+                <img src="./assets/Rock.jpg" id="user-rock" alt="rock">
+                <img src="./assets/Paper.jpg" id="user-paper" alt="paper">
+                <img src="./assets/Scissors.jpg" id="user-scissor" alt="scissors">
+            </div>
+            <h3>You</h3>
+        </div>
+        <div class="score-container">
+            <div class="scores">
+                <h2>Score</h2>
+                    <div class="computer-score">
+                        <div class="score-label">Computer:</div>
+                        <div class="score-number" id="com-score-id">0</div>
+                    </div>
+                    <div class="user-score">
+                        <div class="score-label">You:</div>
+                        <div class="score-number" id="user-score-id">0</div>
+                    </div>
+            </div>
+        </div>
+        
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
