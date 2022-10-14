@@ -1,5 +1,5 @@
 # rock-paper-scissors-game
-The classic Rock, Paper, Scissors game, played against the computer. Play it at https://ibtehajdoesdevelopment.on.drv.tw/webdev/Games/Rock_Paper_Scissors/.
+The classic Rock, Paper, Scissors game, played against the computer. Play it at https://ibtehajdoesdevelopment.on.drv.tw/webdev/games/rock_paper_scissors/.
 
 The game can also be enjoyed on most phones (tested on Firefox and Chrome).
 
